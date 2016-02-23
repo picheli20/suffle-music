@@ -20,3 +20,4 @@ for root, subFolders, files in os.walk(directory, topdown=True):
     target = os.path.join(root, fileName)
     os.rename(path, target)
     pass
+
